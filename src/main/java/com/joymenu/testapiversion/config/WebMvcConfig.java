@@ -1,6 +1,6 @@
 package com.joymenu.testapiversion.config;
 
-import com.joymenu.testapiversion.CustomRequestMappingHandlerMapping;
+import com.joymenu.testapiversion.handler.CustomRequestMappingHandlerMapping;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.boot.autoconfigure.web.servlet.WebMvcRegistrations;

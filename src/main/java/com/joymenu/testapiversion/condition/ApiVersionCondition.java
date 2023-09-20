@@ -1,4 +1,4 @@
-package com.joymenu.testapiversion;
+package com.joymenu.testapiversion.condition;
 
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
@@ -24,7 +24,7 @@ public class ApiVersionCondition implements RequestCondition<ApiVersionCondition
 
     private int apiVersion;
 
-    ApiVersionCondition(int apiVersion) {
+    public ApiVersionCondition(int apiVersion) {
         this.apiVersion = apiVersion;
     }
 
